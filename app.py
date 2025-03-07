@@ -1484,7 +1484,7 @@ if 'section' not in st.session_state:
 def main():
     # Display selected section based on session state
     if st.session_state.section == "Overview":
-        display_Overview()
+        display_overview()
     elif st.session_state.section == "Geographical Context":
         display_geographical_context()
     elif st.session_state.section == "Regional Airport Ecosystem":
