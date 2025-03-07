@@ -73,7 +73,7 @@ section = st.sidebar.radio(
 @st.cache_data
 def load_data():
     # Load your merged dataset
-    df = pd.read_csv('/content/airports_merged.csv')
+    df = pd.read_csv('airports_merged.csv')
     return df
 
 # Try to load data and handle potential errors
