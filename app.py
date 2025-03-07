@@ -89,7 +89,7 @@ def load_data():
     df = pd.read_csv('/content/airports_merged.csv')
     return df
 
-data.head(10)
+
 
 # Try to load data and handle potential errors
 try:
